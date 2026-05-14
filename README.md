@@ -1,26 +1,25 @@
 # Agentic Triage System with Crew AI
+**Author - Venkat Movva**
 
-Author - Venkat Movva
-
-Overview
+**Overview**  
 This is a Triage Management System that is designed to take over the manual triaging process by reading user feedback from csv files containing app store reviews and support 
 emails. The system uses AI to automatically classify content into categories (Bug / Feature Request / Praise / Complaint / Spam),  extracts actionable insights and technical details and creates structured tickets and logs them to CSV files with appropriate priority. The system self checks its classification and also provides a user interface for monitoring and manual overriding the generated tickets.
 
-Scenario
+**Scenario**  
 As a product engineer at a B2C mobile app company that manages a productivity app with around 10,000 active users. The team currently receives: 
-• 10-20 app store reviews daily 
-• 5-10 customer support emails per day 
-• Occasional in-app feedback submissions 
+- 10-20 app store reviews daily 
+- 5-10 customer support emails per day 
+- Occasional in-app feedback submissions 
 A team member manually reads through this feedback and creates tickets in your project management system. This process takes 1-2 hours daily and often results in: 
-• Delayed response to critical bugs 
-• Inconsistent ticket formatting and prioritization 
-• Lost or overlooked feedback 
-• Poor traceability from user complaint to engineering resolution 
+- Delayed response to critical bugs 
+- Inconsistent ticket formatting and prioritization 
+- Lost or overlooked feedback 
+- Poor traceability from user complaint to engineering resolution 
 
-Problem Statement
+**Problem Statement**  
 Modern SaaS and app-based companies receive dozens of user reviews and feedback daily from multiple channels including app stores (Google Play, App Store), customer support emails, and user surveys. The current manual triaging process is slow, inconsistent, and doesn't scale effectively resulting in critical bugs being missed, feature requests being delayed, and inconsistent prioritization across teams. 
 
-Approach:-
+**Approach**  
 Design, implement, and demonstrate a complete multi-agent AI system that: 
 - Reads user feedback from CSV files containing app store reviews and support emails 
 - Classifies content into categories (Bug / Feature Request / Praise / Complaint / Spam) 
@@ -29,62 +28,7 @@ Design, implement, and demonstrate a complete multi-agent AI system that:
 - Ensures quality and consistency through automated review 
 - Provides a user interface for monitoring and manual overrides 
 
-
-Project Structure
-- main.py: Main application code for the Feedback Management System. 
-- crew.py: Defines all the crew tools, agents and thier tasks
-- helpers.py: For modularity, to keep all the helper functions.
-- requirements.txt: List of dependencies required to run the application.
-- config folder: Has Agents yaml and Tasks yaml files for thier configurations
-- output folder: To save the JSON files writted by each Agent. It also has metrics and processing_log files
-- data folder: Has the app store review and support email csv files
-- venv/: Virtual environment directory (e.g., env for storing installed packages).
-
-Setup Instructions:-
-Create a Virtual Environment:
-- Navigate to the project directory.
-- Run: python -m venv venv (or env if preferred).
-- Activate the virtual environment:
-- Windows: venv\Scripts\activate
-- macOS/Linux: source venv/bin/activate
-
-
-Install Dependencies:
-- Ensure requirements.txt is in the project directory.
-- Run: pip install -r requirements.txt
-
-Run the Application Locally:
-- Run: streamlit run app.py
-- Open the provided URL (e.g., http://localhost:8501) in your browser to access the app.
-- Give Open API key in the left nav bar of streamlit UI
-
-Deploying on Streamlit Cloud:-
-
-Prepare Your Project:
-- Ensure app.py, doc_processor.py, requirements.txt, and .env are in the project directory.
-- Create a Streamlit Cloud account at https://streamlit.io/cloud.
-
-Upload to Streamlit Cloud:
-- Log in to Streamlit Cloud.
-- Create a new app and connect it to your project directory (e.g., upload the files manually or link to a cloud storage service).
-- Specify app.py as the main script.
-
-Configure Environment Variables:
-- In Streamlit Cloud, go to your app’s settings.
-- Add the GOOGLE_API_KEY as a secret environment variable (do not include .env in the uploaded files for security).
-
-Deploy the App:
-- vClick “Deploy” in Streamlit Cloud.
-- Once deployed, access the app via the provided URL (e.g., https://your-app-name.streamlit.app).
-
-Test the Deployed App:
-- Input job requirements, upload a resume, and analyze it.
-- Verify that the analysis report is generated and downloadable.
-
-Requirements
-The requirements.txt file includes all necessary dependencies.
-
-Usage
+**Usage**  
 - Run the app locally or access the deployed version on Streamlit Cloud.
 - Make sure you have created 2 csv files with data in it, app_store_reviews.csv and customer_emails.csv.
 - Click “Start Analysis” to read the data from the above mentoned csv files and generate tickets automatically with AI-driven analysis.
@@ -105,7 +49,6 @@ Usage
 ---
 
 ## 📦 Tech Stack
-
 - **CrewAI** for buiding a complete multi-agent AI system
 - **Streamlit** for the frontend web interface
 - **Open AI** for LLM to provide reasoning
