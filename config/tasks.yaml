@@ -1,0 +1,171 @@
+csv_reader_task:
+  description: >
+    Use the 'review_tool' to extract all 50 records from the {app_store_reviews} file.
+    Use the 'email_tool' to extract all 50 records from the {support_emails} file.
+    Do not summarize or skip any rows. You must confirm the total count of records found in each file.
+    Clean, normalize, and standardize the data. Ensure consistent schema across all records. 
+    Do not halucinate on the records, only use the data provided in the files.
+    Remove duplicates and handle missing values appropriately.
+  expected_output: >
+    A list of normalized feedback objects in valid JSON format. Follow this schema exactly:
+    [
+      {
+        "feedback_id": "string (UUID or incremental ID)",
+        "source_id": "string (review_id or email_id from the source file)",
+        "source_type": "string ('email' or 'app_store')",
+        "rating": "integer (1-5) or null",
+        "priority": "string ('High', 'Medium', 'Low') or null",
+        "user": "string (username or sender_email from the source file)",
+        "subject": "string",
+        "text": "string (the actual feedback content)",
+        "timestamp": "string (ISO-8601 format)",
+        "metadata": {
+          "device": "string or null",
+          "os": "string or null",
+          "app_version": "string or null"
+        }
+      }
+    ]
+  agent: csv_reader
+  output_file: output/csv_reader.json
+
+
+feedback_classifier_task:
+  description: >
+    Analyze each feedback entry provided by the csv_reader_task and classify it into 
+    one of the following categories: Bug, Feature Request, Praise, Complaint, or Spam. 
+    For bugs, include device info and severity. For feature requests, identify the 
+    requested feature and potential impact. Suggest clear ticket titles and provide 
+    a confidence score for each. If the sentiment is negative AND contains 
+    any of these keywords: {keywords}, assign 'Urgent' priority.
+    Only finalize if your confidence is above {threshold}.
+  expected_output: >
+    A JSON list of classified feedback objects following this schema:
+    [
+      {
+        "feedback_id": "string",
+        "source_id": "string",
+        "source_type": "string",
+        "category": "string (Bug, Feature Request, Praise, Complaint, or Spam)",
+        "priority": "string (Critical, High, Medium, or Low)",
+        "technical_details": "string",
+        "suggested_title": "string",
+        "confidence": "float",
+        "metadata": {
+          "device": "string or null",
+          "os": "string or null",
+          "app_version": "string or null"
+        }
+      }
+    ]
+  agent: feedback_classifier
+  output_file: output/feedback_classifier.json
+  context:
+    - csv_reader_task
+
+
+bug_analysis_task:
+  description: >
+    For feedback categorized as "Bug", extract detailed technical insights.
+    Identify steps to reproduce, expected vs actual behavior, device details,
+    OS version, error messages, and assign severity.
+  expected_output: >
+    A list of bug analysis objects:
+    [
+      {
+        "feedback_id": "feedback_id from feedback_classifier_task",
+        "steps_to_reproduce": ["step1", "step2"],
+        "expected_behavior": "string",
+        "actual_behavior": "string",
+        "device": "string",
+        "os": "string",
+        "error_message": "string",
+        "severity": "Critical | High | Medium | Low",
+        "technical_summary": "string"
+      }
+    ]
+  agent: bug_analyst
+  output_file: output/bug_analysis.json
+  context:
+    - csv_reader_task
+    - feedback_classifier_task
+
+
+feature_extractor_task:
+  description: >
+    For feedback categorized as "Feature Request", extract structured feature ideas.
+    Identify the requested feature, user use case, potential impact, and group similar requests.
+  expected_output: >
+    A list of feature extraction objects:
+    [
+      {
+        "feedback_id": "feedback_id from feedback_classifier_task",
+        "feature_request": "string",
+        "use_case": "string",
+        "estimated_impact": "High | Medium | Low",
+        "user_segment": "string",
+        "app_version": "app_version from metadata",
+        "similar_requests": ["feedback_id1", "feedback_id2"]
+      }
+    ]
+  agent: feature_extractor
+  output_file: output/feature_extractor.json
+  context:
+    - csv_reader_task
+    - feedback_classifier_task
+
+
+ticket_creator_task:
+  description: >
+    Create structured tickets from all processed feedback.
+    Combine classification results and analysis outputs (bug/feature/other).
+    For bugs, include device info, reproduction steps and severity. For features, include use case and impact.
+    Assign appropriate priority levels based on severity, impact, and category.
+    Prepare clear, actionable ticket titles and detailed descriptions. Include all relevant metadata for developers.
+    Format tickets for logging into a CSV file.
+  expected_output: >
+    A list of ticket objects:
+    [
+      {
+        "ticket_id": "string",
+        "feedback_id": "feedback_id from previous tasks",
+        "category": "Bug | Feature Request | Praise | Complaint | Spam",
+        "priority": "High | Medium | Low",
+        "summary": "string",
+        "details": "string",
+        "steps_to_reproduce": "steps_to_reproduce from bug_analysis_task or null",
+        "use_case": "use_case from feature_extractor_task or null",
+        "device": "device from metadata",
+        "os": "os from metadata",
+        "created_at": "ISO-8601 format",
+        "source": "string"
+      }
+    ]
+  agent: ticket_creator
+  output_file: output/ticket_creator.json
+  context:
+    - csv_reader_task
+    - feedback_classifier_task
+    - bug_analysis_task
+    - feature_extractor_task
+
+
+quality_critic_task:
+  description: >
+    Review all generated tickets for completeness, consistency, and accuracy.
+    Validate required fields, detect inconsistencies, and flag low-quality tickets.
+    Suggest improvements or corrections where necessary.
+  expected_output: >
+    A list of quality review results:
+    [
+      {
+        "ticket_id": "string",
+        "status": "Approved | Needs Revision",
+        "issues_found": ["issue1", "issue2"],
+        "suggested_fixes": ["fix1", "fix2"]
+      }
+    ]
+  agent: quality_critic
+  output_file: output/quality_critic.json
+  context:
+    - ticket_creator_task

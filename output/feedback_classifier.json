@@ -1,0 +1,152 @@
+[
+  {
+    "feedback_id": "fb-app-001",
+    "source_id": "review1",
+    "source_type": "app_store",
+    "category": "Praise",
+    "priority": "Low",
+    "technical_details": "Sentiment: Positive. No issues reported. Overall satisfaction with the app. App version 3.0.1.",
+    "suggested_title": "Praise: Excellent app experience",
+    "confidence": 0.92,
+    "metadata": {
+      "device": null,
+      "os": null,
+      "app_version": "3.0.1"
+    }
+  },
+  {
+    "feedback_id": "fb-app-002",
+    "source_id": "review2",
+    "source_type": "app_store",
+    "category": "Bug",
+    "priority": "Medium",
+    "technical_details": "Severity: Medium. UI rendering bug: menu options blur badly during scrolling; affects readability but app remains functional. No device/OS information provided.",
+    "suggested_title": "UI blur during scrolling in app menu",
+    "confidence": 0.82,
+    "metadata": {
+      "device": null,
+      "os": null,
+      "app_version": "3.0.1"
+    }
+  },
+  {
+    "feedback_id": "fb-app-003",
+    "source_id": "review3",
+    "source_type": "app_store",
+    "category": "Bug",
+    "priority": "High",
+    "technical_details": "Severity: High. The app hasn't been updated for over 2 years and doesn't work anymore.",
+    "suggested_title": "App not functioning; lacks recent updates",
+    "confidence": 0.85,
+    "metadata": {
+      "device": null,
+      "os": null,
+      "app_version": "3.0.1"
+    }
+  },
+  {
+    "feedback_id": "fb-app-004",
+    "source_id": "review4",
+    "source_type": "app_store",
+    "category": "Praise",
+    "priority": "Low",
+    "technical_details": "Positive feedback; no issues mentioned. Overall satisfaction with the app.",
+    "suggested_title": "Praise: Love it — best app",
+    "confidence": 0.92,
+    "metadata": {
+      "device": null,
+      "os": null,
+      "app_version": "3.0.1"
+    }
+  },
+  {
+    "feedback_id": "fb-app-005",
+    "source_id": "review5",
+    "source_type": "app_store",
+    "category": "Praise",
+    "priority": "Low",
+    "technical_details": "Positive feedback; no issues mentioned. Overall satisfaction with the app.",
+    "suggested_title": "Praise: Awesome—Well done",
+    "confidence": 0.90,
+    "metadata": {
+      "device": null,
+      "os": null,
+      "app_version": "2.1.7"
+    }
+  },
+  {
+    "feedback_id": "fb-email-001",
+    "source_id": "email1",
+    "source_type": "email",
+    "category": "Bug",
+    "priority": "High",
+    "technical_details": "Severity: High. Data loss reported when performing actions on the main screen. Device: Samsung Galaxy S22; OS: Android 14; App version: null.",
+    "suggested_title": "Data Loss Problem on Samsung Galaxy S22",
+    "confidence": 0.78,
+    "metadata": {
+      "device": "Samsung Galaxy S22",
+      "os": "Android 14",
+      "app_version": null
+    }
+  },
+  {
+    "feedback_id": "fb-email-002",
+    "source_id": "email2",
+    "source_type": "email",
+    "category": "Bug",
+    "priority": "Medium",
+    "technical_details": "Severity: Medium. Login issue reported on iPhone 14; OS: iOS 17.1; Steps to reproduce provided; App version: null.",
+    "suggested_title": "Login Issue on iPhone 14 (iOS 17.1)",
+    "confidence": 0.76,
+    "metadata": {
+      "device": "iPhone 14",
+      "os": "iOS 17.1",
+      "app_version": null
+    }
+  },
+  {
+    "feedback_id": "fb-email-003",
+    "source_id": "email3",
+    "source_type": "email",
+    "category": "Feature Request",
+    "priority": "Low",
+    "technical_details": "Requested feature: Improvement (unspecified). Potential impact: minor to moderate depending on final feature; no specific feature details provided.",
+    "suggested_title": "Improvement Suggestion (unspecified feature)",
+    "confidence": 0.72,
+    "metadata": {
+      "device": "Samsung Galaxy S22",
+      "os": "Android 14",
+      "app_version": null
+    }
+  },
+  {
+    "feedback_id": "fb-email-004",
+    "source_id": "email4",
+    "source_type": "email",
+    "category": "Bug",
+    "priority": "High",
+    "technical_details": "Severity: High. Data loss reported on iPhone 14; Device: iPhone 14; OS: iOS 17.1; Steps to reproduce included; App version: null.",
+    "suggested_title": "Data Loss Problem on iPhone 14",
+    "confidence": 0.83,
+    "metadata": {
+      "device": "iPhone 14",
+      "os": "iOS 17.1",
+      "app_version": null
+    }
+  },
+  {
+    "feedback_id": "fb-email-005",
+    "source_id": "email5",
+    "source_type": "email",
+    "category": "Bug",
+    "priority": "High",
+    "technical_details": "Severity: High. Data loss reported on Samsung Galaxy S22; Device: Samsung Galaxy S22; OS: Android 14; Steps to reproduce included; App version: null.",
+    "suggested_title": "Data Loss Problem on Samsung Galaxy S22",
+    "confidence": 0.84,
+    "metadata": {
+      "device": "Samsung Galaxy S22",
+      "os": "Android 14",
+      "app_version": null
+    }
+  }
+]

@@ -1,0 +1,50 @@
+review_id,platform,rating,review_text,username,date,app_version
+review1,app store,5,good very nice,user-1,November 09 2016,3.0.1
+review2,app store,4,Good app. This app is really good. I only gave it 4 stars cause the menu options blur badly while scrolling. Other than that it's perfect and very helpful.,user-2,November 07 2016,3.0.1
+review3,google play,1,Garbage. Was good. Hasn't been updated for over 2 years. Doesn't work anymore. Don't waste your time.,user-3,November 02 2016,3.0.1
+review4,app store,5,Love it best app,user-4,October 28 2016,3.0.1
+review5,app store,5,Awesome Well done.,user-5,October 19 2016,2.1.7
+review6,app store,5,?????????? Flawless I've been looking for something like this found it works great for my LG Premiere,user-6,October 11 2016,2.1.8
+review7,app store,5,Awesome best one.,user-7,October 09 2016,2.1.9
+review8,google play,5,Good and usefull,user-8,October 09 2016,3.0.1
+review9,google play,3,Voice Notify,user-9,October 03 2016,3.0.1
+review10,app store,4,Nice I like the app but why is it speaking English despite I configured Google TTS for the Dutch language. The phone's language is UK English only speech should be Dutch,user-10,October 02 2016,3.0.1
+review11,google play,1,Doesn't work UI terrible Move on Just garbage. Maybe it's been abandoned.,user-11,September 26 2016,3.0.1
+review12,app store,5,Brilliant Work If u could add in regular expressions too then power users can change what is said to remove unnecessary text etc,user-12,September 24 2016,2.1.7
+review13,app store,3,Good,user-13,September 22 2016,3.0.1
+review14,app store,4,Best voice app love it only problem is that if there's no continents on the message it does not play anything. It should have an option that if there's no continents on the body I should say the application name,user-14,September 21 2016,2.1.8
+review15,google play,3,Great App. But Great App actually it's the only one so far I found stable & never break down an app which announce everything.. Except: ?)Clock time announce. ?) Battery low announce. If these options can be added it'll be the best ever for sure,user-15,September 07 2016,3.0.1
+review16,app store,2,Good app but desperately needs updating!!! Has not kept up with the latest Android versions since Jelly Bean. Where's the support for extended notification text??? This is the reason for many of the comments about notifications from certain apps not being spoken. No response from Pilot_51 to any comments here. App appears to be abandon-ware. Outdated.,user-16,September 03 2016,2.1.9
+review17,google play,1,No sound on Android Nougat Used this on Marshmallow for my Flir Fx app. Now it stopped working after OS upgrade. Otherwise great app??,user-17,August 28 2016,3.0.1
+review18,app store,5,Best app I don't think there a better working app. Ignore text is good feature.,user-18,August 16 2016,3.0.1
+review19,app store,5,Very nice app,user-19,August 16 2016,2.1.7
+review20,google play,1,Not good,user-20,August 06 2016,3.0.1
+review21,google play,1,Not user friendly,user-21,August 05 2016,3.0.1
+review22,app store,5,LIke it,user-22,August 05 2016,2.1.8
+review23,google play,4,Excellent Most Excellent. Thank you.,user-23,August 03 2016,3.0.1
+review24,google play,2,Not working on Samsung Phones...,user-24,July 20 2016,3.0.1
+review25,app store,1,cant stop this app very bad... experince i have uninstall app but still can't stop the message which are reding,user-25,July 18 2016,2.1.9
+review26,app store,5,Just right Like no other,user-26,July 10 2016,2.1.7
+review27,google play,5,BISMILLAHIR RAHMAANIR RAHEEM Works perfect thanks developer,user-27,July 04 2016,3.0.1
+review28,app store,1,No longer works Used to be the best notification reader but it has stopped reading notifications...,user-28,June 20 2016,3.0.1
+review29,google play,5,Full featured and just Excellent !!!,user-29,June 17 2016,3.0.1
+review30,app store,5,Ok Jek,user-30,June 12 2016,2.1.8
+review31,app store,5,So far so good,user-31,June 01 2016,3.0.1
+review32,google play,2,Please fix it. Aside from that this app fails to read the entire contents of the message whether that's the stock messaging app or third party like Telegram for example only a few lines are read. Are our credit cards really safe turning this on? Please fix it so the entire text message reads out loud not just the first few words. LG G3 stick ROM 5.1.1.,user-32,May 26 2016,3.0.1
+review33,app store,5,AWESOME!!! Best voice notifier ever!!!,user-33,May 25 2016,2.1.7
+review34,app store,5,Nice. The best notification app I have ever seen.good work,user-34,May 09 2016,2.1.9
+review35,google play,4,Great for the car. Wish there was a way to censor vulgar words for when I have other people aboard but I believe this might actually be a Google TTS option that would need to be added.,user-35,May 08 2016,3.0.1
+review36,google play,5,Kk Nice,user-36,April 26 2016,3.0.1
+review37,app store,5,I love you I've been looking forever for an app that would do this. I have a Bluetooth headset and I hate that the notification sound would play through the phone and the headphones. But this is way more useful because I can have my phone on silent and still hear exactly what the notification is.,user-37,April 13 2016,3.0.1
+review38,app store,5,Loved it ! A single issue. Do not read my messages application Notify My Android.,user-38,April 06 2016,2.1.8
+review39,google play,5,Top app Small but powerful. No addon and open source. Great.,user-39,April 06 2016,3.0.1
+review40,app store,5,Great app Very small in size and very reliable,user-40,April 06 2016,2.1.7
+review41,google play,5,Nice Its real koo,user-41,April 02 2016,3.0.1
+review42,app store,2,Strange One time it says : Twitter notification from Twitter sometimes it says just Twitter. Please fix it. Also doesn't notifies calls at all and sms with callers name,user-42,April 02 2016,3.0.1
+review43,app store,5,Good app..BT how to stop speaking name who sends message to me,user-43,March 26 2016,2.1.9
+review44,google play,4,Best apps ever!,user-44,March 22 2016,3.0.1
+review45,google play,5,Best Voice Notification app I love this app. I use it pretty much all the time.,user-45,March 14 2016,3.0.1
+review46,app store,5,Great app Does a great job of reading notifications and text messages when I have my headphones on.,user-46,March 11 2016,2.1.8
+review47,app store,3,Good but... It does not read sms and incoming caller,user-47,March 04 2016,2.1.7
+review48,google play,5,Great this one is the best..it requires accessibility it will never fail to read you noti,user-48,March 02 2016,3.0.1
+review49,app store,5,Love to use it Awesome app very useful,user-49,February 08 2016,3.0.1

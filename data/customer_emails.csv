@@ -1,0 +1,1151 @@
+email_id,subject,body,sender_email,timestamp,priority
+email1,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 1",user1@example.com,4/2/2026 4:26,Low
+email2,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 2",user2@example.com,3/29/2026 19:20,Low
+email3,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 3",user3@example.com,3/30/2026 22:56,Low
+email4,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 4",user4@example.com,3/27/2026 18:53,Medium
+email5,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 5",user5@example.com,3/30/2026 20:51,High
+email6,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 6",user6@example.com,4/4/2026 22:24,High
+email7,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 7",user7@example.com,3/30/2026 4:21,High
+email8,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 8",user8@example.com,4/6/2026 10:16,Medium
+email9,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 9",user9@example.com,3/30/2026 17:00,High
+email10,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 10",user10@example.com,4/4/2026 13:24,Medium
+email11,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 11",user11@example.com,4/6/2026 8:55,
+email12,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 12",user12@example.com,4/6/2026 8:05,Low
+email13,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 13",user13@example.com,3/28/2026 14:03,Low
+email14,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 14",user14@example.com,4/5/2026 11:42,High
+email15,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 15",user15@example.com,3/31/2026 11:05,High
+email16,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 16",user16@example.com,4/2/2026 16:10,High
+email17,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 17",user17@example.com,4/5/2026 13:04,Medium
+email18,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 18",user18@example.com,3/27/2026 17:19,Medium
+email19,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 19",user19@example.com,4/4/2026 9:10,Medium
+email20,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 20",user20@example.com,3/29/2026 7:18,Low
+email21,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 21",user21@example.com,3/26/2026 20:41,High
+email22,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 22",user22@example.com,3/29/2026 16:09,
+email23,Feature Request: Dark Mode,"Hello Team,
+
+I am experiencing an issue related to ""Feature Request: Dark Mode"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 23",user23@example.com,4/5/2026 22:27,High
+email24,Feature Request: Dark Mode,"Hello Team,
+
+I am experiencing an issue related to ""Feature Request: Dark Mode"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 24",user24@example.com,4/5/2026 9:31,Low
+email25,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 25",user25@example.com,4/1/2026 7:38,Medium
+email26,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 26",user26@example.com,4/5/2026 18:40,High
+email27,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 27",user27@example.com,4/4/2026 5:07,Medium
+email28,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 28",user28@example.com,3/27/2026 23:45,Low
+email29,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 29",user29@example.com,3/28/2026 11:10,
+email30,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 30",user30@example.com,4/6/2026 4:28,Medium
+email31,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 31",user31@example.com,4/2/2026 21:36,High
+email32,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 32",user32@example.com,4/4/2026 22:57,
+email33,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 33",user33@example.com,3/27/2026 6:56,Medium
+email34,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 34",user34@example.com,3/26/2026 22:39,Low
+email35,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 35",user35@example.com,3/31/2026 14:40,Medium
+email36,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 36",user36@example.com,3/27/2026 3:34,Low
+email37,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 37",user37@example.com,4/2/2026 0:43,Low
+email38,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 38",user38@example.com,3/30/2026 13:48,High
+email39,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 39",user39@example.com,3/26/2026 20:58,Medium
+email40,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 40",user40@example.com,4/3/2026 3:28,High
+email41,Feature Request: Dark Mode,"Hello Team,
+
+I am experiencing an issue related to ""Feature Request: Dark Mode"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 41",user41@example.com,4/5/2026 3:54,High
+email42,Data Loss Problem,"Hello Team,
+
+I am experiencing an issue related to ""Data Loss Problem"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 42",user42@example.com,3/27/2026 22:38,Low
+email43,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 43",user43@example.com,4/5/2026 2:05,High
+email44,Suggestion for Improvement,"Hello Team,
+
+I am experiencing an issue related to ""Suggestion for Improvement"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 44",user44@example.com,3/29/2026 1:02,Medium
+email45,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 45",user45@example.com,4/2/2026 21:55,Low
+email46,App Crash Report,"Hello Team,
+
+I am experiencing an issue related to ""App Crash Report"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 46",user46@example.com,4/1/2026 16:35,High
+email47,Feature Request: Dark Mode,"Hello Team,
+
+I am experiencing an issue related to ""Feature Request: Dark Mode"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 47",user47@example.com,4/1/2026 19:33,
+email48,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 48",user48@example.com,4/4/2026 20:52,Low
+email49,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: Samsung Galaxy S22
+OS Version: Android 14
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 49",user49@example.com,3/31/2026 3:39,Medium
+email50,Login Issue,"Hello Team,
+
+I am experiencing an issue related to ""Login Issue"".
+
+Device: iPhone 14
+OS Version: iOS 17.1
+
+Steps to Reproduce:
+1. Open the app
+2. Navigate to the main screen
+3. Perform action related to the issue
+4. Observe the problem
+
+Expected Result:
+The feature should work as intended.
+
+Actual Result:
+Encountered unexpected behavior.
+
+Please look into this issue.
+
+Regards,
+User 50",user50@example.com,3/29/2026 10:01,Medium
