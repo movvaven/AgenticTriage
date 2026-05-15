@@ -58,7 +58,7 @@ Design, implement, and demonstrate a complete multi-agent AI system that:
 ---
 
 ## 🛠️ Setup Instructions
-````
+
 
 1. **Create and activate a virtual environment**
 
@@ -77,7 +77,7 @@ Design, implement, and demonstrate a complete multi-agent AI system that:
    Create a `.env` file in the project root and add:
 
    ```
-   GOOGLE_API_KEY=your_google_api_key
+   OPENAI_API_KEY=your_openai_api_key
    ```
 
 4. **Run the app**
