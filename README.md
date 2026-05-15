@@ -57,6 +57,15 @@ Design, implement, and demonstrate a complete multi-agent AI system that:
 
 ---
 
+## <img width="24" height="20" alt="Computer Screenshot" src="https://github.com/user-attachments/assets/94120923-1e84-49ee-aa17-03ecf0bd7eaf" /> Screen Shots
+<img width="1457" height="496" alt="image" src="https://github.com/user-attachments/assets/a2fc32b0-80be-4467-afa1-e13c8a9d1623" />
+<img width="1857" height="865" alt="image" src="https://github.com/user-attachments/assets/c9def9e7-9157-4900-8a40-78a21b7f3fa4" />
+<img width="1874" height="850" alt="image" src="https://github.com/user-attachments/assets/19189e69-3408-417c-a744-6d696bcd1204" />
+<img width="1880" height="756" alt="image" src="https://github.com/user-attachments/assets/17fe63d3-8a34-4a9e-8a45-a3e41833da72" />
+<img width="1852" height="741" alt="image" src="https://github.com/user-attachments/assets/532a038a-389f-4534-aa61-3839266d52fd" />
+
+---
+
 ## 🛠️ Setup Instructions
 
 
