@@ -66,6 +66,14 @@ Design, implement, and demonstrate a complete multi-agent AI system that:
 
 ---
 
+## <img width="24" height="20" alt="Achitecture" src="https://github.com/user-attachments/assets/2d419cb3-ebba-4536-8854-31469d7d5cb0" />  System Flow
+<img width="820" height="1229" alt="AgenticTriage" src="https://github.com/user-attachments/assets/751deb64-47ae-4936-9e47-dd7fa884af65" />
+
+---
+
+
+
+
 ## 🛠️ Setup Instructions
 
 
